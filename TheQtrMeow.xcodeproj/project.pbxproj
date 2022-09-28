@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3171BACA28E4D867001EDAD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171BAC928E4D867001EDAD9 /* AppDelegate.swift */; };
+		3171BACC28E4D867001EDAD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171BACB28E4D867001EDAD9 /* SceneDelegate.swift */; };
+		3171BACE28E4D867001EDAD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171BACD28E4D867001EDAD9 /* ViewController.swift */; };
+		3171BAD128E4D867001EDAD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3171BACF28E4D867001EDAD9 /* Main.storyboard */; };
+		3171BAD328E4D868001EDAD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3171BAD228E4D868001EDAD9 /* Assets.xcassets */; };
+		3171BAD628E4D868001EDAD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3171BAD428E4D868001EDAD9 /* LaunchScreen.storyboard */; };
+		3171BAE128E4D868001EDAD9 /* TheQtrMeowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171BAE028E4D868001EDAD9 /* TheQtrMeowTests.swift */; };
+		3171BAEB28E4D868001EDAD9 /* TheQtrMeowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171BAEA28E4D868001EDAD9 /* TheQtrMeowUITests.swift */; };
+		3171BAED28E4D868001EDAD9 /* TheQtrMeowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171BAEC28E4D868001EDAD9 /* TheQtrMeowUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3171BADD28E4D868001EDAD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3171BABE28E4D867001EDAD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3171BAC528E4D867001EDAD9;
+			remoteInfo = TheQtrMeow;
+		};
+		3171BAE728E4D868001EDAD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3171BABE28E4D867001EDAD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3171BAC528E4D867001EDAD9;
+			remoteInfo = TheQtrMeow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3171BAC628E4D867001EDAD9 /* TheQtrMeow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheQtrMeow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3171BAC928E4D867001EDAD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3171BACB28E4D867001EDAD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3171BACD28E4D867001EDAD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3171BAD028E4D867001EDAD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3171BAD228E4D868001EDAD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3171BAD528E4D868001EDAD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3171BAD728E4D868001EDAD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3171BADC28E4D868001EDAD9 /* TheQtrMeowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheQtrMeowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3171BAE028E4D868001EDAD9 /* TheQtrMeowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheQtrMeowTests.swift; sourceTree = "<group>"; };
+		3171BAE628E4D868001EDAD9 /* TheQtrMeowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheQtrMeowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3171BAEA28E4D868001EDAD9 /* TheQtrMeowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheQtrMeowUITests.swift; sourceTree = "<group>"; };
+		3171BAEC28E4D868001EDAD9 /* TheQtrMeowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheQtrMeowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3171BAC328E4D867001EDAD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3171BAD928E4D868001EDAD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3171BAE328E4D868001EDAD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3171BABD28E4D867001EDAD9 = {
+			isa = PBXGroup;
+			children = (
+				3171BAC828E4D867001EDAD9 /* TheQtrMeow */,
+				3171BADF28E4D868001EDAD9 /* TheQtrMeowTests */,
+				3171BAE928E4D868001EDAD9 /* TheQtrMeowUITests */,
+				3171BAC728E4D867001EDAD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3171BAC728E4D867001EDAD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3171BAC628E4D867001EDAD9 /* TheQtrMeow.app */,
+				3171BADC28E4D868001EDAD9 /* TheQtrMeowTests.xctest */,
+				3171BAE628E4D868001EDAD9 /* TheQtrMeowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3171BAC828E4D867001EDAD9 /* TheQtrMeow */ = {
+			isa = PBXGroup;
+			children = (
+				3171BAC928E4D867001EDAD9 /* AppDelegate.swift */,
+				3171BACB28E4D867001EDAD9 /* SceneDelegate.swift */,
+				3171BACD28E4D867001EDAD9 /* ViewController.swift */,
+				3171BACF28E4D867001EDAD9 /* Main.storyboard */,
+				3171BAD228E4D868001EDAD9 /* Assets.xcassets */,
+				3171BAD428E4D868001EDAD9 /* LaunchScreen.storyboard */,
+				3171BAD728E4D868001EDAD9 /* Info.plist */,
+			);
+			path = TheQtrMeow;
+			sourceTree = "<group>";
+		};
+		3171BADF28E4D868001EDAD9 /* TheQtrMeowTests */ = {
+			isa = PBXGroup;
+			children = (
+				3171BAE028E4D868001EDAD9 /* TheQtrMeowTests.swift */,
+			);
+			path = TheQtrMeowTests;
+			sourceTree = "<group>";
+		};
+		3171BAE928E4D868001EDAD9 /* TheQtrMeowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3171BAEA28E4D868001EDAD9 /* TheQtrMeowUITests.swift */,
+				3171BAEC28E4D868001EDAD9 /* TheQtrMeowUITestsLaunchTests.swift */,
+			);
+			path = TheQtrMeowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3171BAC528E4D867001EDAD9 /* TheQtrMeow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3171BAF028E4D868001EDAD9 /* Build configuration list for PBXNativeTarget "TheQtrMeow" */;
+			buildPhases = (
+				3171BAC228E4D867001EDAD9 /* Sources */,
+				3171BAC328E4D867001EDAD9 /* Frameworks */,
+				3171BAC428E4D867001EDAD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheQtrMeow;
+			productName = TheQtrMeow;
+			productReference = 3171BAC628E4D867001EDAD9 /* TheQtrMeow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3171BADB28E4D868001EDAD9 /* TheQtrMeowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3171BAF328E4D868001EDAD9 /* Build configuration list for PBXNativeTarget "TheQtrMeowTests" */;
+			buildPhases = (
+				3171BAD828E4D868001EDAD9 /* Sources */,
+				3171BAD928E4D868001EDAD9 /* Frameworks */,
+				3171BADA28E4D868001EDAD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3171BADE28E4D868001EDAD9 /* PBXTargetDependency */,
+			);
+			name = TheQtrMeowTests;
+			productName = TheQtrMeowTests;
+			productReference = 3171BADC28E4D868001EDAD9 /* TheQtrMeowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3171BAE528E4D868001EDAD9 /* TheQtrMeowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3171BAF628E4D868001EDAD9 /* Build configuration list for PBXNativeTarget "TheQtrMeowUITests" */;
+			buildPhases = (
+				3171BAE228E4D868001EDAD9 /* Sources */,
+				3171BAE328E4D868001EDAD9 /* Frameworks */,
+				3171BAE428E4D868001EDAD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3171BAE828E4D868001EDAD9 /* PBXTargetDependency */,
+			);
+			name = TheQtrMeowUITests;
+			productName = TheQtrMeowUITests;
+			productReference = 3171BAE628E4D868001EDAD9 /* TheQtrMeowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3171BABE28E4D867001EDAD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					3171BAC528E4D867001EDAD9 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					3171BADB28E4D868001EDAD9 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 3171BAC528E4D867001EDAD9;
+					};
+					3171BAE528E4D868001EDAD9 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 3171BAC528E4D867001EDAD9;
+					};
+				};
+			};
+			buildConfigurationList = 3171BAC128E4D867001EDAD9 /* Build configuration list for PBXProject "TheQtrMeow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3171BABD28E4D867001EDAD9;
+			productRefGroup = 3171BAC728E4D867001EDAD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3171BAC528E4D867001EDAD9 /* TheQtrMeow */,
+				3171BADB28E4D868001EDAD9 /* TheQtrMeowTests */,
+				3171BAE528E4D868001EDAD9 /* TheQtrMeowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3171BAC428E4D867001EDAD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3171BAD628E4D868001EDAD9 /* LaunchScreen.storyboard in Resources */,
+				3171BAD328E4D868001EDAD9 /* Assets.xcassets in Resources */,
+				3171BAD128E4D867001EDAD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3171BADA28E4D868001EDAD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3171BAE428E4D868001EDAD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3171BAC228E4D867001EDAD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3171BACE28E4D867001EDAD9 /* ViewController.swift in Sources */,
+				3171BACA28E4D867001EDAD9 /* AppDelegate.swift in Sources */,
+				3171BACC28E4D867001EDAD9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3171BAD828E4D868001EDAD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3171BAE128E4D868001EDAD9 /* TheQtrMeowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3171BAE228E4D868001EDAD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3171BAED28E4D868001EDAD9 /* TheQtrMeowUITestsLaunchTests.swift in Sources */,
+				3171BAEB28E4D868001EDAD9 /* TheQtrMeowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3171BADE28E4D868001EDAD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3171BAC528E4D867001EDAD9 /* TheQtrMeow */;
+			targetProxy = 3171BADD28E4D868001EDAD9 /* PBXContainerItemProxy */;
+		};
+		3171BAE828E4D868001EDAD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3171BAC528E4D867001EDAD9 /* TheQtrMeow */;
+			targetProxy = 3171BAE728E4D868001EDAD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3171BACF28E4D867001EDAD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3171BAD028E4D867001EDAD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3171BAD428E4D868001EDAD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3171BAD528E4D868001EDAD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3171BAEE28E4D868001EDAD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3171BAEF28E4D868001EDAD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3171BAF128E4D868001EDAD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TheQtrMeow/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bre.TheQtrMeow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3171BAF228E4D868001EDAD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TheQtrMeow/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bre.TheQtrMeow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3171BAF428E4D868001EDAD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bre.TheQtrMeowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheQtrMeow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TheQtrMeow";
+			};
+			name = Debug;
+		};
+		3171BAF528E4D868001EDAD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bre.TheQtrMeowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheQtrMeow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TheQtrMeow";
+			};
+			name = Release;
+		};
+		3171BAF728E4D868001EDAD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bre.TheQtrMeowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheQtrMeow;
+			};
+			name = Debug;
+		};
+		3171BAF828E4D868001EDAD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bre.TheQtrMeowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheQtrMeow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3171BAC128E4D867001EDAD9 /* Build configuration list for PBXProject "TheQtrMeow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3171BAEE28E4D868001EDAD9 /* Debug */,
+				3171BAEF28E4D868001EDAD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3171BAF028E4D868001EDAD9 /* Build configuration list for PBXNativeTarget "TheQtrMeow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3171BAF128E4D868001EDAD9 /* Debug */,
+				3171BAF228E4D868001EDAD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3171BAF328E4D868001EDAD9 /* Build configuration list for PBXNativeTarget "TheQtrMeowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3171BAF428E4D868001EDAD9 /* Debug */,
+				3171BAF528E4D868001EDAD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3171BAF628E4D868001EDAD9 /* Build configuration list for PBXNativeTarget "TheQtrMeowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3171BAF728E4D868001EDAD9 /* Debug */,
+				3171BAF828E4D868001EDAD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3171BABE28E4D867001EDAD9 /* Project object */;
+}
