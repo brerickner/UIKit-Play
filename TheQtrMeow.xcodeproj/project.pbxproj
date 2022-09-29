@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3148AED828E5FB03008D0A76 /* libQMNative.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3148AED728E5FB03008D0A76 /* libQMNative.xcframework */; };
+		3148AED928E5FB03008D0A76 /* libQMNative.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3148AED728E5FB03008D0A76 /* libQMNative.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3148AEDC28E633F5008D0A76 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3148AEDB28E633F5008D0A76 /* UserViewController.swift */; };
+		314C036628E4F741007AD9F3 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C036528E4F741007AD9F3 /* CartViewController.swift */; };
+		314C036828E4F774007AD9F3 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C036728E4F774007AD9F3 /* MainScreenViewController.swift */; };
+		314C036A28E4F795007AD9F3 /* QAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C036928E4F795007AD9F3 /* QAViewController.swift */; };
+		314C036C28E4F9DE007AD9F3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C036B28E4F9DE007AD9F3 /* HomeViewController.swift */; };
+		314C036F28E4FCF0007AD9F3 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C036E28E4FCF0007AD9F3 /* UIViewController+Utils.swift */; };
+		314C037128E4FE9E007AD9F3 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C037028E4FE9E007AD9F3 /* MainTabBar.swift */; };
 		3171BACA28E4D867001EDAD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171BAC928E4D867001EDAD9 /* AppDelegate.swift */; };
-		3171BACC28E4D867001EDAD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171BACB28E4D867001EDAD9 /* SceneDelegate.swift */; };
-		3171BACE28E4D867001EDAD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171BACD28E4D867001EDAD9 /* ViewController.swift */; };
-		3171BAD128E4D867001EDAD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3171BACF28E4D867001EDAD9 /* Main.storyboard */; };
+		3171BACE28E4D867001EDAD9 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171BACD28E4D867001EDAD9 /* AccountViewController.swift */; };
 		3171BAD328E4D868001EDAD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3171BAD228E4D868001EDAD9 /* Assets.xcassets */; };
 		3171BAD628E4D868001EDAD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3171BAD428E4D868001EDAD9 /* LaunchScreen.storyboard */; };
 		3171BAE128E4D868001EDAD9 /* TheQtrMeowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171BAE028E4D868001EDAD9 /* TheQtrMeowTests.swift */; };
 		3171BAEB28E4D868001EDAD9 /* TheQtrMeowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171BAEA28E4D868001EDAD9 /* TheQtrMeowUITests.swift */; };
 		3171BAED28E4D868001EDAD9 /* TheQtrMeowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171BAEC28E4D868001EDAD9 /* TheQtrMeowUITestsLaunchTests.swift */; };
+		3171BB0428E4DA22001EDAD9 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171BB0328E4DA22001EDAD9 /* AccountView.swift */; };
+		3171BB0828E4DA58001EDAD9 /* TextViewsMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171BB0728E4DA58001EDAD9 /* TextViewsMain.swift */; };
+		3171BB0B28E4DAA7001EDAD9 /* MultiLineTextLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171BB0A28E4DAA7001EDAD9 /* MultiLineTextLabels.swift */; };
+		3171BB0D28E4DABC001EDAD9 /* TextColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171BB0C28E4DABC001EDAD9 /* TextColors.swift */; };
+		3171BB0F28E4DAD9001EDAD9 /* RandomLanguages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171BB0E28E4DAD9001EDAD9 /* RandomLanguages.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +47,33 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3148AEDA28E5FB03008D0A76 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3148AED928E5FB03008D0A76 /* libQMNative.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3148AED028E5E767008D0A76 /* TheQtrMeow-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheQtrMeow-Bridging-Header.h"; sourceTree = "<group>"; };
+		3148AED728E5FB03008D0A76 /* libQMNative.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libQMNative.xcframework; path = "../../../iOSLanding/AppsSDKs/QMNative-1.1.25-2022-09-22_223750-51737f29-12.0/libQMNative.xcframework"; sourceTree = "<group>"; };
+		3148AEDB28E633F5008D0A76 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		314C036528E4F741007AD9F3 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		314C036728E4F774007AD9F3 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainScreenViewController.swift; path = Account/MainScreenViewController.swift; sourceTree = "<group>"; };
+		314C036928E4F795007AD9F3 /* QAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAViewController.swift; sourceTree = "<group>"; };
+		314C036B28E4F9DE007AD9F3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		314C036E28E4FCF0007AD9F3 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
+		314C037028E4FE9E007AD9F3 /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
 		3171BAC628E4D867001EDAD9 /* TheQtrMeow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheQtrMeow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3171BAC928E4D867001EDAD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3171BACB28E4D867001EDAD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3171BACD28E4D867001EDAD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3171BAD028E4D867001EDAD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3171BACD28E4D867001EDAD9 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccountViewController.swift; path = TheQtrMeow/Views/AccountViewController.swift; sourceTree = SOURCE_ROOT; };
 		3171BAD228E4D868001EDAD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3171BAD528E4D868001EDAD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3171BAD728E4D868001EDAD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +82,11 @@
 		3171BAE628E4D868001EDAD9 /* TheQtrMeowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheQtrMeowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3171BAEA28E4D868001EDAD9 /* TheQtrMeowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheQtrMeowUITests.swift; sourceTree = "<group>"; };
 		3171BAEC28E4D868001EDAD9 /* TheQtrMeowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheQtrMeowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3171BB0328E4DA22001EDAD9 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		3171BB0728E4DA58001EDAD9 /* TextViewsMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewsMain.swift; sourceTree = "<group>"; };
+		3171BB0A28E4DAA7001EDAD9 /* MultiLineTextLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiLineTextLabels.swift; sourceTree = "<group>"; };
+		3171BB0C28E4DABC001EDAD9 /* TextColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextColors.swift; sourceTree = "<group>"; };
+		3171BB0E28E4DAD9001EDAD9 /* RandomLanguages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomLanguages.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3148AED828E5FB03008D0A76 /* libQMNative.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +115,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3148AECD28E5E5DD008D0A76 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		3148AED628E5FB02008D0A76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3148AED728E5FB03008D0A76 /* libQMNative.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		314C036D28E4FCDB007AD9F3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				314C036E28E4FCF0007AD9F3 /* UIViewController+Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		3171BABD28E4D867001EDAD9 = {
 			isa = PBXGroup;
 			children = (
+				3148AED028E5E767008D0A76 /* TheQtrMeow-Bridging-Header.h */,
+				3171BAF928E4D8B8001EDAD9 /* TESTS */,
 				3171BAC828E4D867001EDAD9 /* TheQtrMeow */,
-				3171BADF28E4D868001EDAD9 /* TheQtrMeowTests */,
-				3171BAE928E4D868001EDAD9 /* TheQtrMeowUITests */,
 				3171BAC728E4D867001EDAD9 /* Products */,
+				3148AED628E5FB02008D0A76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +163,13 @@
 			isa = PBXGroup;
 			children = (
 				3171BAC928E4D867001EDAD9 /* AppDelegate.swift */,
-				3171BACB28E4D867001EDAD9 /* SceneDelegate.swift */,
-				3171BACD28E4D867001EDAD9 /* ViewController.swift */,
-				3171BACF28E4D867001EDAD9 /* Main.storyboard */,
 				3171BAD228E4D868001EDAD9 /* Assets.xcassets */,
 				3171BAD428E4D868001EDAD9 /* LaunchScreen.storyboard */,
 				3171BAD728E4D868001EDAD9 /* Info.plist */,
+				314C037028E4FE9E007AD9F3 /* MainTabBar.swift */,
+				3171BAFA28E4D935001EDAD9 /* Views */,
+				314C036D28E4FCDB007AD9F3 /* Utils */,
+				3148AECD28E5E5DD008D0A76 /* Framework */,
 			);
 			path = TheQtrMeow;
 			sourceTree = "<group>";
@@ -127,6 +191,89 @@
 			path = TheQtrMeowUITests;
 			sourceTree = "<group>";
 		};
+		3171BAF928E4D8B8001EDAD9 /* TESTS */ = {
+			isa = PBXGroup;
+			children = (
+				3171BADF28E4D868001EDAD9 /* TheQtrMeowTests */,
+				3171BAE928E4D868001EDAD9 /* TheQtrMeowUITests */,
+			);
+			name = TESTS;
+			sourceTree = "<group>";
+		};
+		3171BAFA28E4D935001EDAD9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				314C036728E4F774007AD9F3 /* MainScreenViewController.swift */,
+				3171BAFB28E4D949001EDAD9 /* Home */,
+				3171BAFD28E4D956001EDAD9 /* Cart */,
+				3171BAFC28E4D951001EDAD9 /* Account */,
+				3171BAFE28E4D95C001EDAD9 /* QA */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3171BAFB28E4D949001EDAD9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				314C036B28E4F9DE007AD9F3 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3171BAFC28E4D951001EDAD9 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				3171BACD28E4D867001EDAD9 /* AccountViewController.swift */,
+				3171BB0328E4DA22001EDAD9 /* AccountView.swift */,
+				3148AEDB28E633F5008D0A76 /* UserViewController.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		3171BAFD28E4D956001EDAD9 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				314C036528E4F741007AD9F3 /* CartViewController.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		3171BAFE28E4D95C001EDAD9 /* QA */ = {
+			isa = PBXGroup;
+			children = (
+				3171BAFF28E4D9B8001EDAD9 /* TestCases */,
+			);
+			path = QA;
+			sourceTree = "<group>";
+		};
+		3171BAFF28E4D9B8001EDAD9 /* TestCases */ = {
+			isa = PBXGroup;
+			children = (
+				314C036928E4F795007AD9F3 /* QAViewController.swift */,
+				3171BB0028E4D9C5001EDAD9 /* TextViews */,
+			);
+			path = TestCases;
+			sourceTree = "<group>";
+		};
+		3171BB0028E4D9C5001EDAD9 /* TextViews */ = {
+			isa = PBXGroup;
+			children = (
+				3171BB0728E4DA58001EDAD9 /* TextViewsMain.swift */,
+				3171BB0928E4DA73001EDAD9 /* TextLabels */,
+			);
+			path = TextViews;
+			sourceTree = "<group>";
+		};
+		3171BB0928E4DA73001EDAD9 /* TextLabels */ = {
+			isa = PBXGroup;
+			children = (
+				3171BB0A28E4DAA7001EDAD9 /* MultiLineTextLabels.swift */,
+				3171BB0C28E4DABC001EDAD9 /* TextColors.swift */,
+				3171BB0E28E4DAD9001EDAD9 /* RandomLanguages.swift */,
+			);
+			path = TextLabels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +284,7 @@
 				3171BAC228E4D867001EDAD9 /* Sources */,
 				3171BAC328E4D867001EDAD9 /* Frameworks */,
 				3171BAC428E4D867001EDAD9 /* Resources */,
+				3148AEDA28E5FB03008D0A76 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +381,6 @@
 			files = (
 				3171BAD628E4D868001EDAD9 /* LaunchScreen.storyboard in Resources */,
 				3171BAD328E4D868001EDAD9 /* Assets.xcassets in Resources */,
-				3171BAD128E4D867001EDAD9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +405,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3171BACE28E4D867001EDAD9 /* ViewController.swift in Sources */,
+				3171BB0F28E4DAD9001EDAD9 /* RandomLanguages.swift in Sources */,
+				314C037128E4FE9E007AD9F3 /* MainTabBar.swift in Sources */,
+				3171BACE28E4D867001EDAD9 /* AccountViewController.swift in Sources */,
+				314C036F28E4FCF0007AD9F3 /* UIViewController+Utils.swift in Sources */,
+				3171BB0428E4DA22001EDAD9 /* AccountView.swift in Sources */,
+				3171BB0828E4DA58001EDAD9 /* TextViewsMain.swift in Sources */,
+				314C036628E4F741007AD9F3 /* CartViewController.swift in Sources */,
+				3148AEDC28E633F5008D0A76 /* UserViewController.swift in Sources */,
 				3171BACA28E4D867001EDAD9 /* AppDelegate.swift in Sources */,
-				3171BACC28E4D867001EDAD9 /* SceneDelegate.swift in Sources */,
+				314C036A28E4F795007AD9F3 /* QAViewController.swift in Sources */,
+				314C036C28E4F9DE007AD9F3 /* HomeViewController.swift in Sources */,
+				3171BB0D28E4DABC001EDAD9 /* TextColors.swift in Sources */,
+				3171BB0B28E4DAA7001EDAD9 /* MultiLineTextLabels.swift in Sources */,
+				314C036828E4F774007AD9F3 /* MainScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +455,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3171BACF28E4D867001EDAD9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3171BAD028E4D867001EDAD9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3171BAD428E4D868001EDAD9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,11 +587,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = TheQtrMeow/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -449,9 +600,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bre.TheQtrMeow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TheQtrMeow-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,11 +617,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = TheQtrMeow/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -476,9 +630,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bre.TheQtrMeow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TheQtrMeow-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
